@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Manrope:wght@600;800&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Poppins:wght@200;400;600&family=Quicksand:wght@300;400;500;600&family=Space+Mono:wght@700&family=Work+Sans:wght@200;300;400;500;600&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #24272c;
+  font-family: space mono;
+  color: #24272c;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0606066c;
+  height: 800px;
+  width: 600px;
+  border: solid 1rem #68fe9a;
+  border-radius: 30px;
+  gap: 2rem;
+  padding: 1rem 0 1rem;
+}
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #68fe9a;
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+  -webkit-transition: 0.4s;
+  font-size: 8rem;
+}
+
+.square:hover {
+  background-color: #9ee2b5;
+  -webkit-transition: 0.4s;
+}
+
+button {
+  width: 12rem;
+  height: 4rem;
+  font-size: 25px;
+  font-family: space mono;
+  color: #24272c;
+  background-color: #68fe9a;
+  border-radius: 20px;
+  -webkit-transition: 0.4s;
+}
+button:hover {
+  background-color: #9ee2b5;
+  -webkit-transition: 0.4s;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #68fe9a;
+  width: 200px;
+  height: 4rem;
+  text-align: center;
+  border-bottom: solid 0.5rem #35383d;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.5rem;
+}
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.836);
+  height: 4rem;
+  border-radius: 0 0 10px 10px;
+  font-size: 2rem;
+}
+
+.player-stats {
+  display: flex;
+  flex-direction: column;
+  border: solid 0.5rem #35383d;
+  border-radius: 20px;
+}
